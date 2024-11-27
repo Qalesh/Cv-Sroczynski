@@ -34,6 +34,7 @@ a:visited{
     align-items: center;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
+	z-index: 100;
 
 }
 #linki{
@@ -64,11 +65,13 @@ a:visited{
     border-left: 4px solid #7c9a92;
     background-color: #e8e3ca;
     box-shadow: 3px 5px 4px #314448;
+	z-index: 1;
 }
 .tekst{
     box-sizing: border-box;
     padding: 10px;
-    widows
+    z-index:3;
+	
 }
 img{
     height: 250px;
